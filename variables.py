@@ -1,9 +1,8 @@
 """Andrea Cueva 
 10/4/2026
 Variables"""
-#Ejercicio nivel 1
+#Ejercicico nivel 1
 nombre,apellido,nombre_completo,pais,ciudad,año,esta_casado,es_verdadero,luz_encendida, edad = "Andrea", "Cueva", "Andrea Cueva", "Ecuador", "Quito",2026, False,  True, "encendida", 16
-#Ejercicio nivel 2
 print (type(nombre))
 print (type(apellido))
 print (type(nombre_completo))
@@ -37,3 +36,4 @@ apellido = input("Apellido: ")
 pais = input("País: ")
 edad = int(input("Edad: "))
 help('keywords')
+
