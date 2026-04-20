@@ -1,6 +1,6 @@
 # ===== PARTE A =====
 #Analisis de datos y codigo
-nombre = "Lucía"
+"""nombre = "Lucía"
 edad = 16
 promedio = 9.75
 cursos = ["Python", "HTML", "CSS"]
@@ -8,7 +8,7 @@ print("Nombre:",type(nombre))
 print(type(edad))
 print(type(promedio))
 print(type(cursos))
-print(len(nombre))
+print(len(nombre))"""
 
 # Respuesta 1:
 #a) Indica el tipo de dato de cada variable
@@ -61,6 +61,26 @@ print(len(nombre))
 #Codigo:
 texto = "Tecnología para todos"
 print(texto.upper())
+print("La cantidad de caracteres es: ",len(texto))
+print ("Python" in texto)
+frase = texto.replace("Tecnología", "Programación")
+print(frase)
+print (texto.split())
 # ===== PARTE C =====
 # Programa integrador2
-# ...
+#5. Desarrolla un programa
+#Codigo:
+"""nombre = str(input("Ingrese su nombre: "))
+apellido = str(input ("Igrese su apellido: "))
+pais = str(input("Ingrese su pais: "))
+ancho = int(input("Ingrese el ancho de la pared: "))
+largo = int (input("Ingrese el alto de la pared: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+area = ancho*largo
+costo = area * precio
+nombre_completo = nombre +" " + apellido
+print(f"Nombre completo: {nombre_completo}  Pais: {pais} El area calculada es: {area} El costo total es: {costo}")
+print(nombre_completo.upper())
+print("la longitud es: ",len(nombre_completo))
+print ("a" in nombre_completo)
+print (costo > 100)"""
