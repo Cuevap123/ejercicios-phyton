@@ -59,18 +59,18 @@ print(len(nombre))"""
 # Reemplace "Tecnología" por "Programación".
 # Divida la frase en palabras usando split(). 
 #Codigo:
-texto = "Tecnología para todos"
+"""texto = "Tecnología para todos"
 print(texto.upper())
 print("La cantidad de caracteres es: ",len(texto))
 print ("Python" in texto)
 frase = texto.replace("Tecnología", "Programación")
 print(frase)
-print (texto.split())
+print (texto.split())"""
 # ===== PARTE C =====
 # Programa integrador2
 #5. Desarrolla un programa
 #Codigo:
-"""nombre = str(input("Ingrese su nombre: "))
+nombre = str(input("Ingrese su nombre: "))
 apellido = str(input ("Igrese su apellido: "))
 pais = str(input("Ingrese su pais: "))
 ancho = int(input("Ingrese el ancho de la pared: "))
@@ -83,4 +83,4 @@ print(f"Nombre completo: {nombre_completo}  Pais: {pais} El area calculada es: {
 print(nombre_completo.upper())
 print("la longitud es: ",len(nombre_completo))
 print ("a" in nombre_completo)
-print (costo > 100)"""
+print (costo > 100)
