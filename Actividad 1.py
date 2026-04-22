@@ -22,3 +22,4 @@ print(type("Cueva"))
 print(type("Ecuador"))
 print(type(['Asabeneh', 'Python', 'Finland']))
 
+print 

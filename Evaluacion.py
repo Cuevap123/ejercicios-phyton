@@ -84,3 +84,4 @@ print(nombre_completo.upper())
 print("la longitud es: ",len(nombre_completo))
 print ("a" in nombre_completo)
 print (costo > 100)
+print 
