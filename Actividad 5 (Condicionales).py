@@ -25,5 +25,87 @@ else:
         else:
             print("El numero es negativo e impar")"""      
 #OTRO METODO MAS FACIL 
-edad = int(input("Ingrese la edad:"))
-print("Es mayor de edad") if edad > 18 else print("Es menor de edad")
+"""edad = int(input("Ingrese la edad:"))
+print("Es mayor de edad") if edad > 18 else print("Es menor de edad")"""
+
+#Deber 5
+# Ejercicio 1
+edad = int(input("Ingrese su edad: "))
+
+if edad >= 18:
+    print("Tienes la edad suficiente para aprender a conducir.")
+else:
+    faltan = 18 - edad
+    print("Necesitas", faltan, "años más para aprender a conducir.")
+# Ejercicio 2
+
+mi_edad = int(input("Ingrese mi edad: "))
+tu_edad = int(input("Ingrese tu edad: "))
+
+if mi_edad > tu_edad:
+    diferencia = mi_edad - tu_edad
+
+    # Condicional anidado
+    if diferencia == 1:
+        print("Soy 1 año mayor que tú.")
+    else:
+        print("Soy", diferencia, "años mayor que tú.")
+
+elif tu_edad > mi_edad:
+    diferencia = tu_edad - mi_edad
+
+    # Condicional anidado
+    if diferencia == 1:
+        print("Eres 1 año mayor que yo.")
+    else:
+        print("Eres", diferencia, "años mayor que yo.")
+
+else:
+    print("Tenemos la misma edad.")
+# Ejercicio 3
+a = int(input("Ingrese el primer número: "))
+b = int(input("Ingrese el segundo número: "))
+
+if a > b:
+    print(a, "es mayor que", b)
+elif a < b:
+    print(a, "es menor que", b)
+else:
+    print(a, "es igual a", b)
+# Ejercicio 4
+
+nota = int(input("Ingrese su puntaje: "))
+
+if nota >= 90:
+    print("A")
+elif nota >= 80:
+    print("B")
+elif nota >= 70:
+    print("C")
+elif nota >= 60:
+    print("D")
+else:
+    print("F")
+# Ekercicio 5
+mes = input("Ingrese el mes: ").lower()
+
+if mes in ["septiembre", "octubre", "noviembre"]:
+    print("Otoño")
+elif mes in ["diciembre", "enero", "febrero"]:
+    print("Invierno")
+elif mes in ["marzo", "abril", "mayo"]:
+    print("Primavera")
+elif mes in ["junio", "julio", "agosto"]:
+    print("Verano")
+else:
+    print("Mes inválido")
+# Ejercicio 6
+fruits = ['banana', 'orange', 'mango', 'lemon']
+
+fruta = input("Ingrese una fruta: ").lower()
+
+if fruta in fruits:
+    print("Esa fruta ya existe en la lista")
+else:
+    fruits.append(fruta)
+    print("Lista actualizada:", fruits)
