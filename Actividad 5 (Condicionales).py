@@ -44,25 +44,21 @@ tu_edad = int(input("Ingrese tu edad: "))
 
 if mi_edad > tu_edad:
     diferencia = mi_edad - tu_edad
-
-    # Condicional anidado
     if diferencia == 1:
         print("Soy 1 año mayor que tú.")
     else:
         print("Soy", diferencia, "años mayor que tú.")
-
 elif tu_edad > mi_edad:
     diferencia = tu_edad - mi_edad
-
-    # Condicional anidado
     if diferencia == 1:
         print("Eres 1 año mayor que yo.")
     else:
         print("Eres", diferencia, "años mayor que yo.")
-
 else:
     print("Tenemos la misma edad.")
+
 # Ejercicio 3
+
 a = int(input("Ingrese el primer número: "))
 b = int(input("Ingrese el segundo número: "))
 
@@ -76,29 +72,36 @@ else:
 
 nota = int(input("Ingrese su puntaje: "))
 
-if nota >= 90:
-    print("A")
-elif nota >= 80:
-    print("B")
-elif nota >= 70:
-    print("C")
-elif nota >= 60:
-    print("D")
+if nota >= 60:
+    if nota >= 70:
+        if nota >= 80:
+            if nota >= 90:
+                print("A")
+            else:
+                print("B")
+        else:
+            print("C")
+    else:
+        print("D")
 else:
     print("F")
-# Ekercicio 5
+
+# Ejercicio 5
 mes = input("Ingrese el mes: ").lower()
 
 if mes in ["septiembre", "octubre", "noviembre"]:
     print("Otoño")
-elif mes in ["diciembre", "enero", "febrero"]:
-    print("Invierno")
-elif mes in ["marzo", "abril", "mayo"]:
-    print("Primavera")
-elif mes in ["junio", "julio", "agosto"]:
-    print("Verano")
 else:
-    print("Mes inválido")
+    if mes in ["diciembre", "enero", "febrero"]:
+        print("Invierno")
+    else:
+        if mes in ["marzo", "abril", "mayo"]:
+            print("Primavera")
+        else:
+            if mes in ["junio", "julio", "agosto"]:
+                print("Verano")
+            else:
+                print("Mes inválido")
 # Ejercicio 6
 fruits = ['banana', 'orange', 'mango', 'lemon']
 
