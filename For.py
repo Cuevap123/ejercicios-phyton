@@ -13,7 +13,7 @@ print(promedio)"""
 for letter in Language:
     print(letter)"""
 
-palabra = str(input("Ingrese una palabra: ")).lower()
+"""palabra = str(input("Ingrese una palabra: ")).lower()
 vocales = 0
 consonantes  = 0
 for letra in palabra:
@@ -23,9 +23,19 @@ for letra in palabra:
         consonantes = consonantes +1    
 print ("La cantidad de vocales es: ",vocales)
 print ("La cantidad de consonantes es:", consonantes)
-print ("La cantidad de letras es: ",len(palabra))
+print ("La cantidad de letras es: ",len(palabra))"""
 
+"""it_companies = { "Facebook", "Google", "Apple", "Amazon", "Facebook"}
+for company in it_companies:
+    print (company)"""
 
-
+numeros = [1,2,3,4,5,6,7,8,9,10]
+n = int(input("Ingrese un numero: "))
+for numeros in numeros:
+    if n == numeros:
+        print ("Ganaste")
+        break
+else:
+    print("Perdiste")    
 
 
