@@ -2,10 +2,9 @@ numero = int (input("ingrese un numero  "))
 count = 0
 suma = 0
 while count <= numero:
-    suma = suma + count
+    suma = sumaco + unt
     count = count  + 1
 print (suma)
-
 
 
 

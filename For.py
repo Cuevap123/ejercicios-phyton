@@ -1,0 +1,31 @@
+"""numbers = [0,1,2,3,4,5]
+for numeros in numbers: 
+    print(numeros)"""
+
+"""notas = [8,7,9,10,6]
+suma = 0 
+for nota in notas:
+    suma = suma +nota
+promedio = suma /len(notas)
+print(promedio)"""
+
+"""Language = str(input("Ingrese una palabra: "))
+for letter in Language:
+    print(letter)"""
+
+palabra = str(input("Ingrese una palabra: ")).lower()
+vocales = 0
+consonantes  = 0
+for letra in palabra:
+    if letra == "a" or letra == "e" or  letra == "i" or letra == "o" or letra == "u":
+        vocales = vocales +1
+    else:
+        consonantes = consonantes +1    
+print ("La cantidad de vocales es: ",vocales)
+print ("La cantidad de consonantes es:", consonantes)
+print ("La cantidad de letras es: ",len(palabra))
+
+
+
+
+
