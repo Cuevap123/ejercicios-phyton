@@ -75,28 +75,16 @@ while True:
     elif opcion == 2:
         resultado = nota_mayor(n1, n2, n3)
         print("Nota mayor:", resultado)
- 
-    elif opcion == "3":
-
+    elif opcion == 3:
         resultado = nota_menor(n1, n2, n3)
-
         print("Nota menor:", resultado)
- 
-    elif opcion == "4":
-
+    elif opcion ==4:
         promedio = calcular_promedio(n1, n2, n3)
-
         resultado = determinar_aprobacion(promedio)
-
         print(resultado)
- 
-    elif opcion == "5":
-
+    elif opcion ==5:
         print("Saliendo del programa...")
-
         break
- 
     else:
-
         print("Opción no válida. Intente nuevamente.")
  
